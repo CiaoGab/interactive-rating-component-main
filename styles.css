@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131518;
+    color: white;
+    font-family: "Overpass", sans-serif;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 24px;
+    font-weight: 
+    bold;
+    line-height: 30px;
+}
+
+p {
+    color: #969FAD;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* layout */
+
+.container {
+    background: #232A34;
+    background: radial-gradient(circle,rgba(35, 42, 52, 1) 0%, rgba(24, 30, 39, 1) 100%);
+    padding: 24px;
+    border-radius: 15px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img-container {
+    background-color: #262E38;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.rating-button-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rating {
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    background-color: #262E38;
+    color: #969FAD;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-family: "Overpass", sans-serif;
+    font-size: 14px;
+}
+
+.rating-button-container button:hover {
+    background-color: white;
+}
+
+.selected {
+    background-color: #FC7614;
+    color: white;
+}
+
+.submit {
+    border-radius: 22.5px;
+    height: 45px;
+    font-family: "Overpass", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #131518;
+    background-color: #FC7614;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+}
+
+.error-message {
+    color: rgb(229, 2, 2);
+    text-align: center;
+}
+
+/* Submitted Styles */
+
+.submitted-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.selection-container {
+    padding: 16px 0;
+    height: 32px;
+    background-color: #262E38;
+    width: 192px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.selection-container p {
+    font-size: 15px;
+    color: #FC7614;
+    font-family: "Overpass", sans-serif;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.text-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-size: 15px;
+    line-height: 24px;
+}

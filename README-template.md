@@ -1,26 +1,23 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - Interactive Rating Component Solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). This project helped me practice building interactive UI components and responsive layouts.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
@@ -31,20 +28,58 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot of my solution](/images/Screenshot%202025-07-27%20183604.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-CiaoGab](https://www.frontendmentor.io/profile/CiaoGab)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vanilla JavaScript
+
+### What I Learned
+
+While building this project, I improved my skills in:
+
+- Creating interactive UI components with JavaScript
+- Managing state and user feedback in a simple app
+- Responsive design using CSS Grid and Flexbox
+- Using custom properties for consistent theming
+
+
+```
+
+### Continued Development
+
+In future projects, I want to:
+
+- Explore more advanced state management techniques
+- Improve accessibility for interactive components
+- Experiment with CSS animations for better user feedback
+
+### Useful Resources
+
+- [MDN Web Docs](https://developer.mozilla.org/) - For HTML, CSS, and JavaScript reference
+- [CSS-Tricks](https://css-tricks.com/) - Great articles on layout and UI patterns
+
+## Author
+
+- Name: Juan Gabriel Vallejo
+- Frontend Mentor: [@CiaoGab](https://www.frontendmentor.io/profile/CiaoGab)
+- GitHub: [CiaoGab](https://github.com/CiaoGab)
+
+## Acknowledgments
+
+Thanks to the Frontend Mentor community for feedback and inspiration!
 
 ## My process
 
@@ -70,15 +105,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

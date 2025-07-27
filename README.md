@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-CiaoGab](https://www.frontendmentor.io/profile/CiaoGab)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ciaogab.github.io/interactive-rating-component-main/)
 
 ## My Process
 
@@ -55,8 +55,7 @@ While building this project, I improved my skills in:
 - Responsive design using CSS Grid and Flexbox
 - Using custom properties for consistent theming
 
-
-```
+````
 
 ### Continued Development
 
@@ -104,7 +103,7 @@ To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
-```
+````
 
 ```css
 .proud-of-this-css {

@@ -93,6 +93,7 @@ p {
     color: #131518;
     background-color: #FC7614;
     cursor: pointer;
+    letter-spacing: 1.87px;
 }
 
 .submit:hover {
